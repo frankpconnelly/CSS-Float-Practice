@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header, footer{
+    height: 100px;
+    border: 3px solid black;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+section.slim{
+    height: 400px;
+    width: 20%;
+    border: 3px solid black;
+    float: left;
+    margin-bottom: 5px;
+}
+
+section.thicc{
+    height: 400px;
+    width: 40%;
+    border: 3px solid black;
+    float: left;
+}

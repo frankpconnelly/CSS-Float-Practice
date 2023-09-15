@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header, footer{
+    border: 3px solid blue;
+    height: 100px;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+section.top{
+    border: 3px solid blue;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+section.bottomLeft{
+    border: 3px solid blue;
+    height: 300px;
+    width: 33.3333%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+section.bottomRight{
+    border: 3px solid blue;
+    height: 300px;
+    width: 66.6666%;
+    float: left;
+    margin-bottom: 5px;
+}

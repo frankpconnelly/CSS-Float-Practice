@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box; /*tells browser to ignore the borders when calculating the width.*/
+}
+
+header, footer{
+    text-align: center;
+    height: 100px;
+    border: 3px solid black;
+    clear: both; /*tells header/footer to look left and right; if there's anything floating, ignore them and come after them. */
+}
+
+section{
+    text-align: center;
+    width: 33.3333%;
+    height: 300px;
+    border: 3px solid black;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
